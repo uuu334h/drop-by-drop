@@ -1,0 +1,15 @@
+[
+  { "id": "citrus",   "label": "Citrus",   "color": "#E3B91F" },
+  { "id": "green",    "label": "Green",    "color": "#5E9C45" },
+  { "id": "aromatic", "label": "Aromatic", "color": "#2F9488" },
+  { "id": "aquatic",  "label": "Aquatic",  "color": "#3B78BE" },
+  { "id": "fruity",   "label": "Fruity",   "color": "#F0844A" },
+  { "id": "floral",   "label": "Floral",   "color": "#DA5A8A" },
+  { "id": "spicy",    "label": "Spicy",    "color": "#BC3626" },
+  { "id": "gourmand", "label": "Gourmand", "color": "#9C5A2C" },
+  { "id": "powdery",  "label": "Powdery",  "color": "#B396D3" },
+  { "id": "woody",    "label": "Woody",    "color": "#6B5A3A" },
+  { "id": "ambery",   "label": "Ambery",   "color": "#C9851F" },
+  { "id": "musky",    "label": "Musky",    "color": "#A39AA6" },
+  { "id": "animalic", "label": "Animalic", "color": "#5B3346" }
+]

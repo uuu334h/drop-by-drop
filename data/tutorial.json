@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tutorial-1",
+    "customer": { "name": "Clara", "type": "neighbour" },
+    "text": "I want a peachy, rosy perfume with a soft musky drydown. Nothing dirty or animalic.",
+    "format": "edp", "sizeMl": 50,
+    "wishes": [
+      { "kind": "note", "role": "core", "note": "rose" },
+      { "kind": "note", "role": "accent", "note": "peach" },
+      { "kind": "facet", "role": "base", "facets": ["musky"], "min": 0.25, "label": "musky drydown" }
+    ],
+    "noGos": [{ "facets": ["animalic"], "max": 0.03, "label": "animalic" }],
+    "ideal": { "peach": 2, "rose": 10, "ambrette": 16 },
+    "allowed": ["peach", "rose", "ambrette"],
+    "hints": {
+      "start": "Read what she wants: rose at the heart, a touch of peach, a soft musky drydown, and nothing animalic. Only three bottles fit. Tap Rose absolute.",
+      "rose": "Rose is the heart of this one. Around ten drops. Tap the beaker for one drop, or hold to pour.",
+      "peach": "Peach is loud. Two drops, no more.",
+      "ambrette": "Ambrette is shy. It takes many drops to be heard.",
+      "blotter": "Test it on a blotter before you sell. She'll tell you what's missing."
+    }
+  },
+  {
+    "id": "tutorial-2",
+    "customer": { "name": "Mateo", "type": "gym-goer" },
+    "text": "Something fresh and lemony for after the gym, a touch of lavender, and a clean woody finish. Not too sweet.",
+    "format": "edt", "sizeMl": 50,
+    "wishes": [
+      { "kind": "note", "role": "core", "note": "lemon" },
+      { "kind": "note", "role": "accent", "note": "lavender" },
+      { "kind": "facet", "role": "base", "facets": ["woody"], "min": 0.25, "label": "woody finish" },
+      { "kind": "group", "role": "group", "facets": ["citrus", "aromatic", "aquatic"], "min": 0.30, "label": "freshness" },
+      { "kind": "ceiling", "role": "ceiling", "facets": ["gourmand"], "max": 0.15, "label": "sweetness" }
+    ],
+    "noGos": [],
+    "ideal": { "lemon": 12, "lavender": 4, "cedarwood": 12 },
+    "hints": {
+      "start": "Fresh requests live in the top notes: lemon, bergamot, lavender. And he said not too sweet."
+    }
+  },
+  {
+    "id": "tutorial-3",
+    "customer": { "name": "Leila", "type": "romantic" },
+    "text": "Something romantic: rose, a peachy glow, and a soft sweet base. Nothing dirty or animalic.",
+    "format": "edp", "sizeMl": 50,
+    "wishes": [
+      { "kind": "note", "role": "core", "note": "rose" },
+      { "kind": "note", "role": "accent", "note": "peach" },
+      { "kind": "facet", "role": "base", "facets": ["gourmand"], "min": 0.25, "label": "sweet base" }
+    ],
+    "noGos": [{ "facets": ["animalic"], "max": 0.03, "label": "animalic" }],
+    "ideal": { "rose": 11, "peach": 2, "vanillin": 7 },
+    "hints": {}
+  }
+]

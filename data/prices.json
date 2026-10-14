@@ -1,0 +1,31 @@
+{
+  "formats": {
+    "edc":     { "label": "Eau de cologne",  "concentration": 0.04 },
+    "edt":     { "label": "Eau de toilette", "concentration": 0.10 },
+    "edp":     { "label": "Eau de parfum",   "concentration": 0.20 },
+    "extrait": { "label": "Extrait",         "concentration": 0.30 }
+  },
+  "basePrice": {
+    "edc":     { "30": 8,  "50": 12, "100": 20 },
+    "edt":     { "30": 14, "50": 22, "100": 36 },
+    "edp":     { "30": 24, "50": 36, "100": 60 },
+    "extrait": { "30": 34, "50": 52, "100": 85 }
+  },
+  "bands": [
+    { "id": "signature", "label": "Signature", "min": 92, "pay": 1.0,  "tip": 0.5, "stars": 5, "xp": 3 },
+    { "id": "full",      "label": "Full",      "min": 80, "pay": 1.0,  "tip": 0.1, "stars": 4, "xp": 2 },
+    { "id": "close",     "label": "Close",     "min": 65, "pay": 0.75, "tip": 0,   "stars": 3, "xp": 1 },
+    { "id": "off",       "label": "Off",       "min": 45, "pay": 0.5,  "tip": 0,   "stars": 2, "xp": 0.5 },
+    { "id": "flop",      "label": "Flop",      "min": 0,  "pay": 0.2,  "tip": 0,   "stars": 1, "xp": 0.5 }
+  ],
+  "fullFiveStarScore": 88,
+  "bottles": [
+    { "id": "classic", "label": "Classic flacon", "cost": 2, "multiplier": 1.0 }
+  ],
+  "dropGrams": 0.05,
+  "beakerDrops": 40,
+  "freeBlotters": 2,
+  "remakes": 2,
+  "xpPerBandPoint": 10,
+  "rankXp": [0, 20, 45, 75, 115, 165, 225, 300, 390, 500, 630, 780]
+}

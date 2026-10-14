@@ -1,0 +1,36 @@
+{
+  "types": [
+    {
+      "id": "student", "label": "Student", "budget": 0.8,
+      "formats": [["edt", 30, 3], ["edt", 50, 2], ["edp", 30, 1]],
+      "archetypes": { "fresh-citrus": 3, "gourmand": 3, "fruity-floral": 2, "skin-musk": 1 }
+    },
+    {
+      "id": "neighbour", "label": "Neighbour", "budget": 1.0,
+      "formats": [["edt", 50, 2], ["edp", 50, 2], ["edp", 30, 1]],
+      "archetypes": { "floral": 3, "fruity-floral": 2, "woody-spicy": 1, "aromatic": 1 }
+    },
+    {
+      "id": "gym-goer", "label": "Gym-goer", "budget": 0.9,
+      "formats": [["edt", 50, 3], ["edc", 100, 1]],
+      "archetypes": { "fresh-citrus": 4, "aromatic": 2, "woody-spicy": 1 }
+    },
+    {
+      "id": "romantic", "label": "Romantic", "budget": 1.1,
+      "formats": [["edp", 50, 3], ["edp", 30, 1]],
+      "archetypes": { "fruity-floral": 3, "skin-musk": 2, "gourmand": 2, "floral": 2 }
+    }
+  ],
+  "names": [
+    "Clara", "Mateo", "Aiko", "Sven", "Leila", "Tomás", "Priya", "Jonah", "Inés", "Yusuf",
+    "Mila", "Ravi", "Noor", "Elena", "Kofi", "Hana", "Lucas", "Zoe", "Omar", "Greta",
+    "Nadia", "Pablo", "Ingrid", "Samir", "Lucía", "Theo", "Amara", "Bruno", "Sofía", "Felix"
+  ],
+  "reviews": {
+    "signature": ["Exactly what I imagined. I'm telling everyone.", "It's perfect. I could cry.", "This is the one. Thank you!"],
+    "full": ["Lovely. I'll wear it every day.", "Very close to what I had in mind.", "Beautiful work."],
+    "close": ["It's nice, but not quite what I asked for.", "Pleasant enough. Not really my idea.", "Almost. Something's a bit off."],
+    "off": ["Hmm. Not really what I wanted.", "I'll take it, but it isn't me.", "That's quite far from what I asked."],
+    "flop": ["This isn't what I asked for at all.", "I'm sorry, I can't wear this.", "That's not my perfume."]
+  }
+}

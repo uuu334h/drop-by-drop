@@ -1,0 +1,179 @@
+[
+  {
+    "id": "bergamot", "name": "Bergamot oil", "tier": 1, "unlockRank": 1,
+    "notes": { "bergamot": 1 },
+    "facets": { "citrus": 0.7, "aromatic": 0.2, "floral": 0.1 },
+    "hiddenFacets": [], "phase": "top", "potency": 2,
+    "coinsPerGram": 0.5, "packGrams": 30, "deliverySeconds": 15,
+    "card": "Sunny, slightly bitter citrus with a hint of tea. It lifts the opening and fades within the hour."
+  },
+  {
+    "id": "lemon", "name": "Lemon oil", "tier": 1, "unlockRank": 1,
+    "notes": { "lemon": 1 },
+    "facets": { "citrus": 0.9, "green": 0.1 },
+    "hiddenFacets": [], "phase": "top", "potency": 2,
+    "coinsPerGram": 0.4, "packGrams": 30, "deliverySeconds": 10,
+    "card": "Sharp, zesty lemon peel. Bright, clean and quick to vanish."
+  },
+  {
+    "id": "lavender", "name": "Lavender oil", "tier": 1, "unlockRank": 1,
+    "notes": { "lavender": 1 },
+    "facets": { "aromatic": 0.7, "floral": 0.2, "woody": 0.1 },
+    "hiddenFacets": [], "phase": "top", "potency": 2.5,
+    "coinsPerGram": 0.5, "packGrams": 30, "deliverySeconds": 15,
+    "card": "Clean, herbal lavender with a soft floral side. The barbershop classic."
+  },
+  {
+    "id": "pink-pepper", "name": "Pink pepper oil", "tier": 1, "unlockRank": 1,
+    "notes": { "pink-pepper": 1 },
+    "facets": { "spicy": 0.7, "citrus": 0.2, "woody": 0.1 },
+    "hiddenFacets": [], "phase": "top", "potency": 3,
+    "coinsPerGram": 0.9, "packGrams": 20, "deliverySeconds": 20,
+    "card": "Fizzy, rosy pepper. It sparkles rather than burns."
+  },
+  {
+    "id": "peach", "name": "Peach lactone", "tier": 1, "unlockRank": 1,
+    "notes": { "peach": 1 },
+    "facets": { "fruity": 0.8, "gourmand": 0.2 },
+    "hiddenFacets": [], "phase": "heart", "potency": 6,
+    "coinsPerGram": 1.2, "packGrams": 10, "deliverySeconds": 30,
+    "card": "Velvety peach skin, creamy and loud. One drop is easy to hear."
+  },
+  {
+    "id": "rose", "name": "Rose absolute", "tier": 1, "unlockRank": 1,
+    "notes": { "rose": 1 },
+    "facets": { "floral": 0.85, "fruity": 0.1, "gourmand": 0.05 },
+    "hiddenFacets": [], "phase": "heart", "potency": 3,
+    "coinsPerGram": 2.5, "packGrams": 15, "deliverySeconds": 40,
+    "card": "Deep, honeyed rose petals. The heart of countless perfumes."
+  },
+  {
+    "id": "jasmine", "name": "Jasmine absolute", "tier": 1, "unlockRank": 1,
+    "notes": { "jasmine": 1 },
+    "facets": { "floral": 0.7, "animalic": 0.25, "gourmand": 0.05 },
+    "hiddenFacets": ["animalic"], "phase": "heart", "potency": 4,
+    "coinsPerGram": 3.0, "packGrams": 10, "deliverySeconds": 45,
+    "card": "Rich, heady white flowers, warm and sensual.",
+    "hiddenCard": "Jasmine hides an animalic, slightly dirty side (indole). Keep it low when a customer says nothing animalic."
+  },
+  {
+    "id": "vanillin", "name": "Vanillin", "tier": 1, "unlockRank": 1,
+    "notes": { "vanilla": 1 },
+    "facets": { "gourmand": 0.9, "ambery": 0.1 },
+    "hiddenFacets": [], "phase": "base", "potency": 4,
+    "coinsPerGram": 0.8, "packGrams": 20, "deliverySeconds": 20,
+    "card": "Sweet, creamy vanilla. Long-lasting and easy to overdo."
+  },
+  {
+    "id": "cedarwood", "name": "Cedarwood Atlas", "tier": 1, "unlockRank": 1,
+    "notes": { "cedar": 1 },
+    "facets": { "woody": 0.85, "ambery": 0.15 },
+    "hiddenFacets": [], "phase": "base", "potency": 1.5,
+    "coinsPerGram": 0.6, "packGrams": 30, "deliverySeconds": 20,
+    "card": "Dry, warm wood, like a freshly sharpened pencil. Quiet but steady."
+  },
+  {
+    "id": "ambrette", "name": "Ambrette seed oil", "tier": 1, "unlockRank": 1,
+    "notes": { "musk": 1 },
+    "facets": { "musky": 0.8, "fruity": 0.15, "floral": 0.05 },
+    "hiddenFacets": [], "phase": "base", "potency": 1.5,
+    "coinsPerGram": 2.0, "packGrams": 15, "deliverySeconds": 60,
+    "card": "Soft, skin-like musk with a hint of pear. Shy: it needs many drops to be heard."
+  },
+  {
+    "id": "grapefruit", "name": "Grapefruit oil", "tier": 2, "unlockRank": 4,
+    "notes": { "grapefruit": 1 },
+    "facets": { "citrus": 0.75, "fruity": 0.15, "green": 0.1 },
+    "hiddenFacets": [], "phase": "top", "potency": 3,
+    "coinsPerGram": 0.8, "packGrams": 30, "deliverySeconds": 120,
+    "card": "Juicy, bitter grapefruit with a sparkling edge."
+  },
+  {
+    "id": "airy-jasmine", "name": "Airy jasmine (methyl dihydrojasmonate)", "tier": 2, "unlockRank": 4,
+    "notes": { "jasmine": 0.6 },
+    "facets": { "floral": 0.75, "citrus": 0.15, "green": 0.1 },
+    "hiddenFacets": [], "phase": "heart", "potency": 1,
+    "coinsPerGram": 0.6, "packGrams": 30, "deliverySeconds": 180,
+    "card": "A transparent, airy jasmine with no dirt at all. Use it generously; it rarely overpowers."
+  },
+  {
+    "id": "coumarin", "name": "Coumarin", "tier": 2, "unlockRank": 4,
+    "notes": { "tonka": 1 },
+    "facets": { "gourmand": 0.5, "powdery": 0.3, "green": 0.2 },
+    "hiddenFacets": [], "phase": "base", "potency": 3,
+    "coinsPerGram": 0.7, "packGrams": 20, "deliverySeconds": 150,
+    "card": "Sweet hay and tonka bean. The backbone of the fougère."
+  },
+  {
+    "id": "galbanum", "name": "Galbanum oil", "tier": 2, "unlockRank": 8,
+    "notes": { "galbanum": 1 },
+    "facets": { "green": 0.85, "woody": 0.1, "spicy": 0.05 },
+    "hiddenFacets": [], "phase": "top", "potency": 8,
+    "coinsPerGram": 2.0, "packGrams": 10, "deliverySeconds": 300,
+    "card": "Fiercely green, like snapped stems. One drop at a time, and listen."
+  },
+  {
+    "id": "velvet-wood", "name": "Velvet wood (OTNE)", "tier": 2, "unlockRank": 8,
+    "notes": { "soft-woods": 1 },
+    "facets": { "woody": 0.6, "ambery": 0.3, "powdery": 0.1 },
+    "hiddenFacets": [], "phase": "base", "potency": 1,
+    "coinsPerGram": 0.5, "packGrams": 30, "deliverySeconds": 240,
+    "card": "A soft, velvety woody glow. Barely there alone, magic in a blend."
+  },
+  {
+    "id": "neroli", "name": "Neroli oil", "tier": 2, "unlockRank": 8,
+    "notes": { "orange-blossom": 1 },
+    "facets": { "floral": 0.55, "citrus": 0.3, "green": 0.15 },
+    "hiddenFacets": [], "phase": "heart", "potency": 4,
+    "coinsPerGram": 4.0, "packGrams": 10, "deliverySeconds": 360,
+    "card": "Bitter-orange blossoms, clean and luminous."
+  },
+  {
+    "id": "patchouli", "name": "Patchouli oil", "tier": 2, "unlockRank": 8,
+    "notes": { "patchouli": 1 },
+    "facets": { "woody": 0.55, "ambery": 0.2, "green": 0.15, "gourmand": 0.1 },
+    "hiddenFacets": [], "phase": "base", "potency": 4,
+    "coinsPerGram": 1.0, "packGrams": 20, "deliverySeconds": 300,
+    "card": "Dark, earthy wood with a cocoa shadow. A little goes far."
+  },
+  {
+    "id": "sandalwood", "name": "Australian sandalwood oil", "tier": 2, "unlockRank": 8,
+    "notes": { "sandalwood": 1 },
+    "facets": { "woody": 0.7, "gourmand": 0.15, "powdery": 0.15 },
+    "hiddenFacets": [], "phase": "base", "potency": 1.5,
+    "coinsPerGram": 3.5, "packGrams": 15, "deliverySeconds": 420,
+    "card": "Creamy, milky wood. Soft and long-lasting."
+  },
+  {
+    "id": "ethyl-maltol", "name": "Ethyl maltol", "tier": 2, "unlockRank": 8,
+    "notes": { "candyfloss": 1 },
+    "facets": { "gourmand": 0.9, "fruity": 0.1 },
+    "hiddenFacets": [], "phase": "heart", "potency": 7,
+    "coinsPerGram": 1.0, "packGrams": 10, "deliverySeconds": 240,
+    "card": "Burnt sugar and candyfloss. A single drop sweetens everything."
+  },
+  {
+    "id": "benzoin", "name": "Benzoin resinoid", "tier": 2, "unlockRank": 8,
+    "notes": { "benzoin": 1 },
+    "facets": { "ambery": 0.6, "gourmand": 0.35, "powdery": 0.05 },
+    "hiddenFacets": [], "phase": "base", "potency": 2,
+    "coinsPerGram": 1.2, "packGrams": 20, "deliverySeconds": 300,
+    "card": "Warm vanilla resin, like a church candle."
+  },
+  {
+    "id": "ionones", "name": "Ionones (violet)", "tier": 2, "unlockRank": 8,
+    "notes": { "violet": 1 },
+    "facets": { "powdery": 0.6, "floral": 0.3, "woody": 0.1 },
+    "hiddenFacets": [], "phase": "heart", "potency": 3,
+    "coinsPerGram": 1.5, "packGrams": 15, "deliverySeconds": 300,
+    "card": "Powdery violet and orris-like softness. Vintage and elegant."
+  },
+  {
+    "id": "white-musk", "name": "White musk", "tier": 2, "unlockRank": 8,
+    "notes": { "musk": 0.8 },
+    "facets": { "musky": 0.85, "powdery": 0.1, "floral": 0.05 },
+    "hiddenFacets": [], "phase": "base", "potency": 1.5,
+    "coinsPerGram": 0.8, "packGrams": 30, "deliverySeconds": 240,
+    "card": "Clean-laundry musk. Soft, cosy and everywhere."
+  }
+]

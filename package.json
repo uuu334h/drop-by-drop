@@ -1,0 +1,23 @@
+{
+  "name": "drop-by-drop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cozy perfume-workshop game: build perfumes drop by drop for customers. Bench prototype.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "check": "tsc --noEmit",
+    "build": "node scripts/build.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "verify": "npm run check && npm test && npm run build && npm run smoke"
+  },
+  "dependencies": {
+    "preact": "10.29.8"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright": "1.56.1",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
+  }
+}

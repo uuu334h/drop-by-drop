@@ -1,0 +1,22 @@
+[
+  { "id": "bergamot",       "label": "bergamot" },
+  { "id": "lemon",          "label": "lemon",          "adjective": "lemony" },
+  { "id": "lavender",       "label": "lavender" },
+  { "id": "pink-pepper",    "label": "pink pepper",    "adjective": "peppery" },
+  { "id": "peach",          "label": "peach",          "adjective": "peachy" },
+  { "id": "rose",           "label": "rose",           "adjective": "rosy" },
+  { "id": "jasmine",        "label": "jasmine" },
+  { "id": "vanilla",        "label": "vanilla" },
+  { "id": "cedar",          "label": "cedar" },
+  { "id": "musk",           "label": "musk",           "adjective": "musky" },
+  { "id": "grapefruit",     "label": "grapefruit" },
+  { "id": "tonka",          "label": "tonka" },
+  { "id": "galbanum",       "label": "galbanum" },
+  { "id": "soft-woods",     "label": "soft woods" },
+  { "id": "orange-blossom", "label": "orange blossom" },
+  { "id": "patchouli",      "label": "patchouli" },
+  { "id": "sandalwood",     "label": "sandalwood" },
+  { "id": "candyfloss",     "label": "candyfloss" },
+  { "id": "benzoin",        "label": "benzoin" },
+  { "id": "violet",         "label": "violet" }
+]

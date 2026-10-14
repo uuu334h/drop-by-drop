@@ -1,0 +1,47 @@
+{
+  "roles": {
+    "core":   { "min": 0.35, "max": 0.55, "target": [0.40, 0.50] },
+    "accent": { "min": 0.12, "max": 0.25, "target": [0.15, 0.21] },
+    "trace":  { "min": 0.03, "max": 0.10, "target": [0.05, 0.08] }
+  },
+  "baseWishes": {
+    "musky":    { "min": 0.25, "label": "musky drydown", "phrases": ["a soft musky drydown", "a musky, skin-like finish"] },
+    "woody":    { "min": 0.25, "label": "woody drydown", "phrases": ["a dry woody drydown", "a clean woody finish"] },
+    "gourmand": { "min": 0.25, "label": "sweet drydown", "phrases": ["a sweet, creamy drydown", "a soft sweet base"] },
+    "ambery":   { "min": 0.25, "label": "warm drydown",  "phrases": ["a warm amber drydown", "a glowing, resinous base"] },
+    "powdery":  { "min": 0.20, "label": "powdery finish", "phrases": ["a soft powdery finish"] }
+  },
+  "groups": {
+    "fresh": { "facets": ["citrus", "aromatic", "aquatic"], "min": 0.30, "label": "freshness", "opener": "Something fresh" },
+    "cozy":  { "facets": ["ambery", "gourmand", "woody"],   "min": 0.35, "label": "warmth",    "opener": "Something cozy" }
+  },
+  "ceilings": {
+    "gourmand": { "max": 0.15, "label": "sweetness", "phrase": "Not too sweet." }
+  },
+  "noGos": {
+    "animalic": { "max": 0.03, "label": "animalic", "phrase": "Nothing dirty or animalic." },
+    "spicy":    { "max": 0.03, "label": "spice",    "phrase": "Nothing spicy, please." }
+  },
+  "archetypes": [
+    { "id": "fruity-floral", "core": ["floral"],   "accent": ["fruity"],                     "base": ["musky", "woody", "gourmand"], "group": null,    "ceiling": null,       "noGos": ["animalic", "spicy"] },
+    { "id": "floral",        "core": ["floral"],   "accent": ["floral", "spicy", "citrus"],  "base": ["musky", "woody", "powdery"],  "group": null,    "ceiling": null,       "noGos": ["animalic"] },
+    { "id": "fresh-citrus",  "core": ["citrus"],   "accent": ["aromatic", "floral", "spicy"], "base": ["woody", "musky"],           "group": "fresh", "ceiling": "gourmand", "noGos": ["animalic"] },
+    { "id": "aromatic",      "core": ["aromatic"], "accent": ["citrus", "spicy"],            "base": ["woody", "gourmand", "musky"], "group": "fresh", "ceiling": null,       "noGos": ["animalic"] },
+    { "id": "gourmand",      "core": ["gourmand"], "accent": ["fruity", "floral", "spicy"],  "base": ["woody", "ambery", "musky"],   "group": "cozy",  "ceiling": null,       "noGos": ["animalic"] },
+    { "id": "woody-spicy",   "core": ["woody"],    "accent": ["spicy", "citrus", "aromatic"], "base": ["musky", "gourmand", "ambery"], "group": "cozy", "ceiling": null,      "noGos": ["animalic"] },
+    { "id": "skin-musk",     "core": ["musky"],    "accent": ["floral", "fruity"],           "base": ["woody", "gourmand", "powdery"], "group": null,  "ceiling": null,       "noGos": ["animalic", "spicy"] }
+  ],
+  "templates": {
+    "plain": [
+      "I want a {accentAdj}, {coreAdj} perfume with {base}.",
+      "Something {coreAdj}, with a touch of {accent} and {base}.",
+      "Could you make me a {core} perfume? A little {accent}, and {base}.",
+      "Mostly {core}, some {accent} on top, and {base}."
+    ],
+    "group": [
+      "{opener}: {core} with a touch of {accent}, and {base}.",
+      "{opener}, please. Mostly {core}, a little {accent}, and {base}."
+    ],
+    "trace": "Just a hint of {trace}."
+  }
+}
