@@ -26,6 +26,7 @@
   "beakerDrops": 40,
   "freeBlotters": 2,
   "remakes": 2,
+  "reputationPrior": { "stars": 3, "weight": 5, "window": 50 },
   "xpPerBandPoint": 10,
   "rankXp": [0, 20, 45, 75, 115, 165, 225, 300, 390, 500, 630, 780]
 }

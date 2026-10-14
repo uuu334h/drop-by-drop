@@ -1,0 +1,22 @@
+{
+  "weights": { "wishes": 60, "profile": 30, "structure": 10 },
+  "structureFromRank": 7,
+  "tolerance": { "twoSidedMin": 0.06, "oneSided": 0.10 },
+  "cosineFloor": 0.80,
+  "capWhenWishMissed": 91,
+  "capWhenNoGoBroken": 44,
+  "generator": {
+    "dropTotals": [18, 34],
+    "dropTotalPenalty": 0.00002,
+    "rangeMargin": 0.015,
+    "traceChance": 0.3,
+    "groupChance": 0.75,
+    "ceilingChance": 0.6,
+    "noGoChance": 0.5,
+    "attempts": 40
+  },
+  "feedback": {
+    "profileGoodEnough": 0.9,
+    "absentBelow": 0.02
+  }
+}
