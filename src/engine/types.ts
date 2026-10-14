@@ -24,6 +24,8 @@ export interface NoteInfo {
 export interface Material {
   id: string;
   name: string;
+  /** Short label for the bottle on the organ. */
+  short: string;
   tier: number;
   unlockRank: number;
   /** Note id -> how much of the material counts as that note (0..1). */
