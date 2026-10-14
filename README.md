@@ -2,7 +2,7 @@
 
 A cozy perfume-workshop game. Customers describe a scent in words, you build it drop by drop, and good perfumes pay for a bigger, prettier perfume house.
 
-This repository holds the bench prototype: the formulating screen, scored against the request, playable on a phone.
+This repository holds the bench prototype: the formulating screen, scored against the request, playable on a phone. The latest build is published at https://claude.ai/artifact/HgMBDTp6YRWKyQihoBw5PV (private until shared).
 
 ## Run it
 

@@ -4,6 +4,10 @@ Cozy perfume-workshop game for phones. Customers describe a scent in words; the 
 
 Design source of truth: the game plan doc, a claude.ai artifact private to Diego: https://claude.ai/code/artifact/7b21b641-33bb-4f49-9ab2-7908ee068e95. When code and plan disagree, ask which should change, then update both.
 
+Other links:
+- Materials review doc, where Diego corrects material numbers and logs test perfumes: https://claude.ai/code/artifact/7ca38052-c47d-4e0c-9eac-e845be5c58be. Copy his corrections into `data/materials.json`.
+- Playable bench, published from `dist/drop-by-drop.html`: https://claude.ai/artifact/HgMBDTp6YRWKyQihoBw5PV. Republish to the same URL after `npm run verify` (from another session, pass this URL to the Artifact tool).
+
 ## Current phase
 
 Phase 2 of the build plan: the bench prototype. One phone screen with generated requests, drops and pours, the profile ring, blotters, bands and a results export. No shop, no real ads, no final art. Test goal: 7 of 10 people who don't know perfume finish three requests at Full or better and ask to keep playing.
@@ -20,7 +24,8 @@ Phase 2 of the build plan: the bench prototype. One phone screen with generated 
 
 - `npm install`. The `.npmrc` sets `legacy-peer-deps`; npm 10 crashes resolving vitest's peers without it.
 - `npm test`, `npm run check`, `npm run build`, `npm run smoke`.
-- `npm run verify` runs all four. Run it before every commit that touches code or data.
+- `npm run verify` runs all four. Run it before every commit that touches code or data. The smoke test leaves screenshots in `dist/smoke/`; look at them after UI changes.
+- Playtest results arrive as text from the in-game menu ("Copy my results"): a header line plus JSON with every customer's drops, score, band, blotters, remakes, pretend ads and seconds.
 
 ## Rules of the game (keep in sync with the plan)
 
